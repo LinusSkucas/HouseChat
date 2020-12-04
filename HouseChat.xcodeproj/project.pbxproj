@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15ECC4522579C56F00FE5CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECC4512579C56F00FE5CD8 /* AppDelegate.swift */; };
+		15ECC4542579C56F00FE5CD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECC4532579C56F00FE5CD8 /* SceneDelegate.swift */; };
+		15ECC4562579C56F00FE5CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECC4552579C56F00FE5CD8 /* ContentView.swift */; };
+		15ECC4582579C57300FE5CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15ECC4572579C57300FE5CD8 /* Assets.xcassets */; };
+		15ECC45B2579C57300FE5CD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15ECC45A2579C57300FE5CD8 /* Preview Assets.xcassets */; };
+		15ECC45E2579C57300FE5CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15ECC45C2579C57300FE5CD8 /* LaunchScreen.storyboard */; };
+		15ECC4922579C77200FE5CD8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECC4912579C77200FE5CD8 /* Message.swift */; };
+		15ECC49E2579CC0700FE5CD8 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECC49D2579CC0700FE5CD8 /* ConnectionManager.swift */; };
+		15ECC4A22579D52200FE5CD8 /* MainChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECC4A12579D52200FE5CD8 /* MainChatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15ECC44E2579C56F00FE5CD8 /* HouseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15ECC4512579C56F00FE5CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15ECC4532579C56F00FE5CD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15ECC4552579C56F00FE5CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15ECC4572579C57300FE5CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15ECC45A2579C57300FE5CD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15ECC45D2579C57300FE5CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15ECC45F2579C57300FE5CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15ECC4912579C77200FE5CD8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		15ECC49B2579CAC100FE5CD8 /* HouseChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HouseChat.entitlements; sourceTree = "<group>"; };
+		15ECC49D2579CC0700FE5CD8 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		15ECC4A12579D52200FE5CD8 /* MainChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChatView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15ECC44B2579C56F00FE5CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15ECC4452579C56F00FE5CD8 = {
+			isa = PBXGroup;
+			children = (
+				15ECC4502579C56F00FE5CD8 /* HouseChat */,
+				15ECC44F2579C56F00FE5CD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15ECC44F2579C56F00FE5CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15ECC44E2579C56F00FE5CD8 /* HouseChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15ECC4502579C56F00FE5CD8 /* HouseChat */ = {
+			isa = PBXGroup;
+			children = (
+				15ECC49B2579CAC100FE5CD8 /* HouseChat.entitlements */,
+				15ECC4512579C56F00FE5CD8 /* AppDelegate.swift */,
+				15ECC4532579C56F00FE5CD8 /* SceneDelegate.swift */,
+				15ECC49D2579CC0700FE5CD8 /* ConnectionManager.swift */,
+				15ECC48A2579C72D00FE5CD8 /* Views */,
+				15ECC4972579C78800FE5CD8 /* Models */,
+				15ECC4572579C57300FE5CD8 /* Assets.xcassets */,
+				15ECC45C2579C57300FE5CD8 /* LaunchScreen.storyboard */,
+				15ECC45F2579C57300FE5CD8 /* Info.plist */,
+				15ECC4592579C57300FE5CD8 /* Preview Content */,
+			);
+			path = HouseChat;
+			sourceTree = "<group>";
+		};
+		15ECC4592579C57300FE5CD8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15ECC45A2579C57300FE5CD8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15ECC48A2579C72D00FE5CD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15ECC4552579C56F00FE5CD8 /* ContentView.swift */,
+				15ECC4A12579D52200FE5CD8 /* MainChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15ECC4972579C78800FE5CD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15ECC4912579C77200FE5CD8 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15ECC44D2579C56F00FE5CD8 /* HouseChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15ECC4782579C57300FE5CD8 /* Build configuration list for PBXNativeTarget "HouseChat" */;
+			buildPhases = (
+				15ECC44A2579C56F00FE5CD8 /* Sources */,
+				15ECC44B2579C56F00FE5CD8 /* Frameworks */,
+				15ECC44C2579C56F00FE5CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseChat;
+			productName = HouseChat;
+			productReference = 15ECC44E2579C56F00FE5CD8 /* HouseChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15ECC4462579C56F00FE5CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					15ECC44D2579C56F00FE5CD8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 15ECC4492579C56F00FE5CD8 /* Build configuration list for PBXProject "HouseChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15ECC4452579C56F00FE5CD8;
+			productRefGroup = 15ECC44F2579C56F00FE5CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15ECC44D2579C56F00FE5CD8 /* HouseChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15ECC44C2579C56F00FE5CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15ECC45E2579C57300FE5CD8 /* LaunchScreen.storyboard in Resources */,
+				15ECC45B2579C57300FE5CD8 /* Preview Assets.xcassets in Resources */,
+				15ECC4582579C57300FE5CD8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15ECC44A2579C56F00FE5CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15ECC49E2579CC0700FE5CD8 /* ConnectionManager.swift in Sources */,
+				15ECC4522579C56F00FE5CD8 /* AppDelegate.swift in Sources */,
+				15ECC4922579C77200FE5CD8 /* Message.swift in Sources */,
+				15ECC4A22579D52200FE5CD8 /* MainChatView.swift in Sources */,
+				15ECC4542579C56F00FE5CD8 /* SceneDelegate.swift in Sources */,
+				15ECC4562579C56F00FE5CD8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15ECC45C2579C57300FE5CD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15ECC45D2579C57300FE5CD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15ECC4762579C57300FE5CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15ECC4772579C57300FE5CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15ECC4792579C57300FE5CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HouseChat/HouseChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HouseChat/Preview Content\"";
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HouseChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackclub.sh.linus.HouseChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15ECC47A2579C57300FE5CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HouseChat/HouseChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HouseChat/Preview Content\"";
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HouseChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackclub.sh.linus.HouseChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15ECC4492579C56F00FE5CD8 /* Build configuration list for PBXProject "HouseChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15ECC4762579C57300FE5CD8 /* Debug */,
+				15ECC4772579C57300FE5CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15ECC4782579C57300FE5CD8 /* Build configuration list for PBXNativeTarget "HouseChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15ECC4792579C57300FE5CD8 /* Debug */,
+				15ECC47A2579C57300FE5CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15ECC4462579C56F00FE5CD8 /* Project object */;
+}
